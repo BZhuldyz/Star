@@ -10,5 +10,7 @@ public static void main(String [] args){
     System.out.print("a = " + a);
     System.out.print("b = " + b);
     System.out.print(MyMath.max(8,9));
+    System.out.print(MyMath.isEven(12));
+    System.out.print(MyMath.isEven(7));
 }
 }
