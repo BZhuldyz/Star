@@ -9,6 +9,7 @@ public static void main(String [] args){
     int b=MyMath.kup( 5) ;
     System.out.print("a = " + a);
     System.out.print("b = " + b);
-    System.out.print(MyMath.max(8,9));
+    System.out.print(MyMath.max3(8,9, 12));
+    System.out.print(MyMath.min3(12,8,15));
 }
 }
